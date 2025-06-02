@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--header-->
+<div class="headerBar">
+  <div class="headerElements">image</div>
+  <div class="headerElements">Anirudh Arunprasad</div>
+  <div class="NavIcon"><button id="navBar">nav</button></div>
+</div>
+<!--About-->
+<div class="landing">
+  <div class="bioElements">
+  <h1 class="headText">Hello! I'm Anirudh Arunprasad.</h1>
+
+  <hr style="height:20px;border-width:0px;background-color:crimson;">
+
+  <b class="boldText">Engineering student, AI enthusiast, and builder of real-world systems.</b>
+  <p class="normText">I use code to explore ideas. </p>
+  <p class = "normText">From machine learning research and robotics optimization, to full-stack apps and algorithm design. I’m especially excited about the intersection of data, intelligence, and human experience.</p>
+  </div>
+</div>
+<!--projects button-->
+<div class="entryElements">
+  <div id="tagline">Here's what I've Been Working On:</div>
+  <div><button id="entry">Press Me!</button></div>
+</div>
+</body>
+<Script>
+  //code to click the button!
+  const entryButton = document.getElementById('entry');
+  entryButton.addEventListener('click', function entryClick() {
+    console.log('clicked!')
+    window.location.href = 'about.html';
+  });
+
+  const navBar = document.getElementById('navBar');
+  navBar.addEventListener('click', function navBarClick() {
+    console.log('NB clicked!')
+  });
+
+</Script>

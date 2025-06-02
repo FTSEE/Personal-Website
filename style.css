@@ -1,3 +1,4 @@
+/*div object classes*/
 .headerBar{
   min-height: 80px;
   background-Color: #5271ff;
@@ -17,7 +18,7 @@
   padding: 40px;
 }
 
-.centerElements{
+.entryElements{
   min-height: 80vh;
   display: flex;
   flex-direction: column;
@@ -25,6 +26,41 @@
   align-items: center;
   background-color: lightgray;
 }
+
+.landing {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+.bioElements {
+  min-height: 100vh;
+  max-width: 60vw;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: lightgray;
+}
+
+/*Text Formatting*/
+.headText{
+  font-size: 60px;
+  color: black;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.normText{
+  font-size: 40px;
+}
+
+.boldText{
+  font-size: 40px;
+}
+
+/*ids*/
 
 #tagline{
   font-size: 60px;
@@ -38,4 +74,9 @@
   background-color: #5271ff;
   color: white;
   margin-top: 40px;
+}
+
+.aboutBody{
+  display: flex;
+
 }
