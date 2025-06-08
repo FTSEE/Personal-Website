@@ -19,7 +19,7 @@
 }
 
 .entryElements{
-  min-height: 80vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,35 +35,44 @@
   background-color: lightgray;
 }
 .bioElements {
-  min-height: 100vh;
+  min-height: 80vh;
   max-width: 60vw;
   display: flex;
   flex-direction:column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   background-color: lightgray;
 }
 
+.centerE {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
 /*Text Formatting*/
 .headText{
-  font-size: 60px;
+  margin-top: 100px;
+  font-size: 40;
   color: black;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .normText{
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .boldText{
-  font-size: 40px;
+  font-size: 20px;
 }
 
 /*ids*/
 
 #tagline{
-  font-size: 60px;
+  margin-top: 40px;
+  font-size: 40px;
   color: black;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
@@ -73,10 +82,13 @@
   font-size: 30px;
   background-color: #5271ff;
   color: white;
+  align-items: center;
   margin-top: 40px;
 }
 
-.aboutBody{
+.pList{
   display: flex;
-
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
 }
